@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dobromiriiliev
-- 👀 I’m interested in ... analytic combinatorics and data paths
-- 🌱 I’m currently learning ... HPC and Distrubuted Systems
+- 👀 I’m interested in ... quantative finance and distrubuted systems
+- 🌱 I’m currently learning ... real analysis and abstract algebra
 - 💞️ I’m looking to collaborate on ... open source involving scientific computing
 - 📫 How to reach me ... dobromiriiliev@gmail.com, https://www.linkedin.com/in/dobromir-iliev-1ba09b23b/
 - 😄 Pronouns: ... he/him
