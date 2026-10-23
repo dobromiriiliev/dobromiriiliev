@@ -1,86 +1,61 @@
 
 # Dobromir Iliev
 
-**Mathematics & Computing · Georgia Tech**
+Mathematics & Computing at Georgia Tech. I like working on problems that require both mathematical reasoning and good software, particularly in scientific computing and systems.
 
-I'm interested in the mathematics behind complex systems and the software that makes them useful. My work sits around scientific computing, computational modeling, and research engineering; I'm also exploring quantitative finance and distributed systems.
+[Email](mailto:dobromiriiliev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dobromir-iliev-1ba09b23b/)
 
-[Email](mailto:dobromiriiliev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dobromir-iliev-1ba09b23b/) · [Projects](#selected-work)
+## What I'm exploring
 
----
-
-## Learning map
-
-A small, evolving map of what I'm studying, what I want to understand next, and where I'd like to apply it.
+I'm currently studying **real analysis** and **abstract algebra**. Here's a rough map of where I want to take those foundations—not a checklist, just topics I keep coming back to.
 
 ```mermaid
-flowchart TB
-    A["NOW · MATHEMATICAL FOUNDATIONS<br/>Real analysis · Abstract algebra"]
-    B["NEXT · COMPUTATIONAL METHODS<br/>Probability · Numerical methods"]
+flowchart LR
+    subgraph foundations [Foundations]
+        A[Real analysis]
+        B[Abstract algebra]
+        C[Probability]
+    end
 
-    A --> B
-    B --> Q["QUANTITATIVE FINANCE"]
-    B --> D["DISTRIBUTED SYSTEMS"]
-    B --> S["SCIENTIFIC COMPUTING"]
+    subgraph methods [Methods]
+        D[Numerical analysis]
+        E[Algorithms]
+        F[Parallel computing]
+    end
 
-    Q --> Q1["Stochastic processes<br/>Time-series modeling"]
-    D --> D1["Concurrency<br/>Parallel & scalable computing"]
-    S --> S1["Simulation<br/>Numerical research software"]
+    subgraph interests [Directions]
+        G[Quantitative finance]
+        H[Scientific computing]
+        I[Distributed systems]
+    end
 
-    classDef focus fill:#172554,stroke:#60a5fa,color:#ffffff,stroke-width:2px;
-    classDef branch fill:#f1f5f9,stroke:#94a3b8,color:#0f172a,stroke-width:1px;
-    class A,B focus;
-    class Q,D,S branch;
+    A --> D
+    A --> C
+    B --> E
+    C --> G
+    D --> G
+    D --> H
+    E --> I
+    F --> H
+    F --> I
 ```
 
-<details>
-<summary><strong>01 / Mathematical foundations</strong> — studying now</summary>
+A few things I'd like to understand better:
 
-- **Real analysis:** rigorous limits, continuity, differentiation, and convergence.
-- **Abstract algebra:** groups, homomorphisms, and algebraic structure.
-- **Next:** deeper probability and numerical analysis.
-
-</details>
-
-<details>
-<summary><strong>02 / Quantitative finance</strong> — exploring</summary>
-
-- Stochastic processes and mathematical models of uncertainty.
-- Time-series analysis and statistical learning.
-- Simulation, optimization, and model validation.
-
-</details>
-
-<details>
-<summary><strong>03 / Distributed systems</strong> — exploring</summary>
-
-- Concurrency and synchronization.
-- Parallel algorithms and high-performance computing.
-- Distributed coordination, fault tolerance, and scalability.
-
-</details>
-
-<details>
-<summary><strong>04 / Scientific computing</strong> — building and learning</summary>
-
-- Numerical simulation and computational physics.
-- Scientific machine learning and experiment design.
-- Reproducible research software and open-source tooling.
-
-</details>
-
----
+- **Quantitative finance:** stochastic processes, time series, and statistical modeling.
+- **Distributed systems:** concurrency, fault tolerance, and systems that scale.
+- **Scientific computing:** numerical simulation, parallel algorithms, and reproducible research.
 
 ## Selected work
 
-**[Q-Scope](https://github.com/dobromiriiliev/qscope)** — An open-source quantum hardware diagnostic that uses Bayesian inference and adaptive experiment selection to localize and estimate Hamiltonian drift. Built with Qiskit.
+**[Q-Scope](https://github.com/dobromiriiliev/qscope)**  
+Bayesian experimental design for diagnosing drift in quantum systems. Built with Python and Qiskit.
 
-**[Zebrafish-inspired biomimetic propulsion](https://github.com/dobromiriiliev/An-Innovative-Energy-Efficient-Biomimetic-Propulsion-System-for-Submersibles-Derived-from-Zebrafish)** — Research on energy-efficient underwater propulsion combining fluid dynamics, computational simulation, and neurologically inspired control. [IEEE publication](https://ieeexplore.ieee.org/document/10947443).
-
----
+**[Zebrafish-inspired propulsion](https://github.com/dobromiriiliev/An-Innovative-Energy-Efficient-Biomimetic-Propulsion-System-for-Submersibles-Derived-from-Zebrafish)**  
+Research into bio-inspired underwater propulsion using computational modeling and simulation. [IEEE paper](https://ieeexplore.ieee.org/document/10947443).
 
 ## Open source
 
-I'd like to collaborate on projects involving **scientific computing, numerical software, simulation, and research infrastructure**. I'm especially interested in tools that make difficult computational problems easier to study and reproduce.
+I'd be happy to collaborate on scientific computing projects, especially simulation tools, numerical software, and research infrastructure.
 
 <sub>he/him 
